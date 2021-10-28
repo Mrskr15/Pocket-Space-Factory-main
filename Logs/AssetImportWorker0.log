@@ -1,0 +1,2434 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/2o/Unity/Pocket-Space-Factory-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65133
+Successfully changed project path to: F:/2o/Unity/Pocket-Space-Factory-main
+F:/2o/Unity/Pocket-Space-Factory-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/2o/Unity/Pocket-Space-Factory-main/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   
+    VRAM:     8050 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001381 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1325ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (342ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (139ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 1.528400 ms (FindLiveObjects: 0.121700 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.307800 ms  DeleteObjects: 0.061400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/In Progress/AlignedGames
+  artifactKey: Guid(48b41c2b98f4faa44beff7d4d208daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/AlignedGames using Guid(48b41c2b98f4faa44beff7d4d208daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d2d9f24d3248b0d788da13319ca5d5') in 0.343094 seconds 
+  Import took 0.345196 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (604ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 1.544800 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.346300 ms  DeleteObjects: 0.018000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003153 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Domain Reload Profiling:
+	ReloadAssembly (746ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.6 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 1.418300 ms (FindLiveObjects: 0.115600 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.255200 ms  DeleteObjects: 0.011300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.074354 seconds.
+  path: Assets/In Progress/Main Menu Manager/AlignedGames/Polygonal Foliage Asset Package
+  artifactKey: Guid(ebad393bd36170e4ca5882c45d96f25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/Main Menu Manager/AlignedGames/Polygonal Foliage Asset Package using Guid(ebad393bd36170e4ca5882c45d96f25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52369713dba4a117b130ac07fc60a63d') in 0.008836 seconds 
+  Import took 0.010984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.513753 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c211b2ddb60b9084c8043a53141946e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c211b2ddb60b9084c8043a53141946e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566c354671151d0f57c456621e6b6336') in 0.007570 seconds 
+  Import took 0.009872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.512868 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(97256331b82b170439db11dfaa33afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(97256331b82b170439db11dfaa33afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd579d0d00a5d17f2b3b76e1458ba5fc7') in 0.006182 seconds 
+  Import took 0.008289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.471083 seconds.
+  path: Assets/Sprites/Splash
+  artifactKey: Guid(0fecd9fe4dbf9894e8111970f9ca28f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Splash using Guid(0fecd9fe4dbf9894e8111970f9ca28f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0067ba1a5b9c2051e48c54814a2b49') in 0.024058 seconds 
+  Import took 0.026225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031041 seconds.
+  path: Assets/Sprites/Splash/CTS_Logo.jpg
+  artifactKey: Guid(68d1adaed1d4101459a2bcaf39e59b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Splash/CTS_Logo.jpg using Guid(68d1adaed1d4101459a2bcaf39e59b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feb6dc549bba0d17e8355ba3d861148') in 0.132137 seconds 
+  Import took 0.134311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.372331 seconds.
+  path: Assets/External Assets
+  artifactKey: Guid(cf286b6f001ba6945933e391efedc7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets using Guid(cf286b6f001ba6945933e391efedc7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d2f09a92e88118624c26e2b7067bab') in 0.006587 seconds 
+  Import took 0.008684 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.734 seconds
+Domain Reload Profiling:
+	ReloadAssembly (734ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.7 MB.
+System memory in use after: 75.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 1.452500 ms (FindLiveObjects: 0.115900 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.289800 ms  DeleteObjects: 0.010800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.641398 seconds.
+  path: Assets/In Progress/Main Menu Manager/Materials/Textures
+  artifactKey: Guid(d615fea602204ba42bbbc95adfdaa8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/Main Menu Manager/Materials/Textures using Guid(d615fea602204ba42bbbc95adfdaa8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041ef2824ba3cd7ee1a8583ee73004c2') in 0.009543 seconds 
+  Import took 0.011779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.866814 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art
+  artifactKey: Guid(12a31e1d59b5cec449275f53966a9ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art using Guid(12a31e1d59b5cec449275f53966a9ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e033204b93531af2c017a924ad8e845') in 0.007659 seconds 
+  Import took 0.009879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039577 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Materials/atlass_1_1.mat
+  artifactKey: Guid(85e89f3b829c70a4a85a798f89bd18ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Materials/atlass_1_1.mat using Guid(85e89f3b829c70a4a85a798f89bd18ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72949e2a8d1ae811e69c69f7d951c6c2') in 0.234887 seconds 
+  Import took 0.237154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Materials/atlass_1_2.mat
+  artifactKey: Guid(8e6f7b24df38b1c4db797b100135d36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Materials/atlass_1_2.mat using Guid(8e6f7b24df38b1c4db797b100135d36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ade74b086010b9e3765895eac73921') in 0.106074 seconds 
+  Import took 0.108131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Materials
+  artifactKey: Guid(171dd9d59794d2449b5e42c8c039e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Materials using Guid(171dd9d59794d2449b5e42c8c039e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ea35bd3e507073e1127affe292af8f') in 0.006016 seconds 
+  Import took 0.008173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.697726 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Profiles
+  artifactKey: Guid(dfe4300d2b35bbf48a342851306accbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Profiles using Guid(dfe4300d2b35bbf48a342851306accbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4da6ebdd566d006515736d2a262b53') in 0.006387 seconds 
+  Import took 0.008720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055510 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Profiles/Post-Processing Profile.asset
+  artifactKey: Guid(48fecc219078fe649b49dc8d6b5a495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Profiles/Post-Processing Profile.asset using Guid(48fecc219078fe649b49dc8d6b5a495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f860ea6856084144f2de9a8efde2cce9') in 0.009061 seconds 
+  Import took 0.011258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.680863 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Shaders
+  artifactKey: Guid(13f798f02f5d8ce49a9feca61e20b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Shaders using Guid(13f798f02f5d8ce49a9feca61e20b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd30d508c3b30903b017db475b629caf') in 0.007931 seconds 
+  Import took 0.010173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.374451 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scripts
+  artifactKey: Guid(07ef1ea683f79e648ab6fbe3b3ba617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scripts using Guid(07ef1ea683f79e648ab6fbe3b3ba617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530974157ce27b377f2ab172766337d0') in 0.007775 seconds 
+  Import took 0.010141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.277328 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes
+  artifactKey: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8208fd568ee2d33985b5310927ecacb9') in 0.005079 seconds 
+  Import took 0.007320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.937125 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1
+  artifactKey: Guid(53da591ef12734e4b87dbb6474e93d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1 using Guid(53da591ef12734e4b87dbb6474e93d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cbe3af76da523b9aca3c72a842e93f') in 0.006458 seconds 
+  Import took 0.008646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063203 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/LightingData.asset
+  artifactKey: Guid(205760118ecf34a4ab86bc7e36a19aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/LightingData.asset using Guid(205760118ecf34a4ab86bc7e36a19aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d4387c1dbc514d3903da3bab50380b') in 0.006998 seconds 
+  Import took 0.044326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-1.exr
+  artifactKey: Guid(56fbc552b21c5a249a2d06299e94a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-1.exr using Guid(56fbc552b21c5a249a2d06299e94a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad449ca181a8647229dfb0b0b5e44a77') in 0.033171 seconds 
+  Import took 0.146266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-0.exr
+  artifactKey: Guid(07b00cf76694fb24f9c2caf79ed5c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-0.exr using Guid(07b00cf76694fb24f9c2caf79ed5c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f301f3e4592b440670d9878b59a70a74') in 0.016639 seconds 
+  Import took 0.018878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004355 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-0.exr
+  artifactKey: Guid(07b00cf76694fb24f9c2caf79ed5c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-0.exr using Guid(07b00cf76694fb24f9c2caf79ed5c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f301f3e4592b440670d9878b59a70a74') in 0.013404 seconds 
+  Import took 0.016026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.390938 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models
+  artifactKey: Guid(7fc242d33d76c1d469ea5bbe6484a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models using Guid(7fc242d33d76c1d469ea5bbe6484a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675ee79710a7947bd3a6ba86d77073a4') in 0.038352 seconds 
+  Import took 0.040514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.200261 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes
+  artifactKey: Guid(c29e0a5415ee6764db45782051b40d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes using Guid(c29e0a5415ee6764db45782051b40d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a80fca11582796c38a6c23fc0b544b') in 0.059228 seconds 
+  Import took 0.061941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.474306 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers
+  artifactKey: Guid(926ce38c8489b584a863b15ce1bc951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers using Guid(926ce38c8489b584a863b15ce1bc951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5ecdf8d9326702c9cc39b58bd33c80') in 0.006357 seconds 
+  Import took 0.008500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.007577 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower1
+  artifactKey: Guid(feea99e6a20684046ab43e159b7f1d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower1 using Guid(feea99e6a20684046ab43e159b7f1d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ebade76e6d664de7d700185906b004') in 0.006775 seconds 
+  Import took 0.008936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069060 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower1/flower_1.fbx
+  artifactKey: Guid(9ce980118ecc6b746a726d933f607ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower1/flower_1.fbx using Guid(9ce980118ecc6b746a726d933f607ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830cd4bf35c6ee2bd79c0c5ffca12341') in 0.046175 seconds 
+  Import took 0.048482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower1/flower_1.prefab
+  artifactKey: Guid(efa2ddb5f1f38fe469832281f386db7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower1/flower_1.prefab using Guid(efa2ddb5f1f38fe469832281f386db7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b682229d2f36577f604cdb6cd4e7780') in 0.013319 seconds 
+  Import took 0.015521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.584520 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees
+  artifactKey: Guid(c1f145a8e86c99f4fac5578271b558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees using Guid(c1f145a8e86c99f4fac5578271b558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900c050eed550b6702eff89c3f8c8716') in 0.007310 seconds 
+  Import took 0.009484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.160080 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree5
+  artifactKey: Guid(fe28464ddaf0fcc41aa2b5772096feb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree5 using Guid(fe28464ddaf0fcc41aa2b5772096feb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415f170ce90376072bc175f8dcb84405') in 0.006575 seconds 
+  Import took 0.009057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303217 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree5/tree_5.fbx
+  artifactKey: Guid(353d0e325a54fa745a9120539f4903fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree5/tree_5.fbx using Guid(353d0e325a54fa745a9120539f4903fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc906dee079c7f9c111adc2b0635946') in 0.015926 seconds 
+  Import took 0.018172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree5/tree_5.prefab
+  artifactKey: Guid(ce6da4e561003da4cb4a6d7ca4a9aba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree5/tree_5.prefab using Guid(ce6da4e561003da4cb4a6d7ca4a9aba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138a7b5fae6fbc323f7d346f8b725d71') in 0.012587 seconds 
+  Import took 0.014964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.685713 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths
+  artifactKey: Guid(8102deedccec093448989bdb5def6838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths using Guid(8102deedccec093448989bdb5def6838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cd11593fa441ad2f8a16fd8f674605') in 0.007445 seconds 
+  Import took 0.010047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.183432 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants
+  artifactKey: Guid(687d6af2119b8fd47bc1b9495d75fe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants using Guid(687d6af2119b8fd47bc1b9495d75fe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94521f6ae42e2cfa6bf9e52975290bf9') in 0.006623 seconds 
+  Import took 0.008777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.611661 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7
+  artifactKey: Guid(11b8232a24e2b1240b834ac7b5c7c33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7 using Guid(11b8232a24e2b1240b834ac7b5c7c33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e841d88e2bf6d56364769efbf4338d71') in 0.006632 seconds 
+  Import took 0.008870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043494 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7/plant_7.fbx
+  artifactKey: Guid(d8e5dcea97a05084d8b4b8fbf34dc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7/plant_7.fbx using Guid(d8e5dcea97a05084d8b4b8fbf34dc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa12708d47126c923687a3cf2d1c93b') in 0.016194 seconds 
+  Import took 0.018436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7/plant_7.prefab
+  artifactKey: Guid(bbb0ac67dc34f944785228d04e038485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7/plant_7.prefab using Guid(bbb0ac67dc34f944785228d04e038485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162a7146e93338620cf9120a98b620ed') in 0.011939 seconds 
+  Import took 0.014099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.548085 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10
+  artifactKey: Guid(419fab5b1f6f43845bcc02bd0b9ecace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10 using Guid(419fab5b1f6f43845bcc02bd0b9ecace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58241ac7ac9b7d2070d1bffdd698b338') in 0.032264 seconds 
+  Import took 0.034446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10/plant_10.fbx
+  artifactKey: Guid(5250b3781bb03b048977ae7fbaddd4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10/plant_10.fbx using Guid(5250b3781bb03b048977ae7fbaddd4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe082f22779c6962154b1af932bcda9') in 0.018772 seconds 
+  Import took 0.020782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10/plant_10.prefab
+  artifactKey: Guid(cde91130bdc27f048a43ca54fa3d6aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10/plant_10.prefab using Guid(cde91130bdc27f048a43ca54fa3d6aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8461f85ab5dd3da2a5ae05b3dd3f355b') in 0.011368 seconds 
+  Import took 0.013988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.323801 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2
+  artifactKey: Guid(af7a2251a3858b64687c797f46afdef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2 using Guid(af7a2251a3858b64687c797f46afdef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e1765183366cbe9891a1515ce6e675') in 0.007880 seconds 
+  Import took 0.010082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.294728 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2/plant_2.fbx
+  artifactKey: Guid(f291823f9b75a924b93a7422e8adc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2/plant_2.fbx using Guid(f291823f9b75a924b93a7422e8adc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b807c368d44fcd9348d6a6133d6f03') in 0.016225 seconds 
+  Import took 0.018771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2/plant_2.prefab
+  artifactKey: Guid(33889ea1ee6e4fe4b922d09e7cee3b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2/plant_2.prefab using Guid(33889ea1ee6e4fe4b922d09e7cee3b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97eba96a60b763385921ca9e7828b90') in 0.013391 seconds 
+  Import took 0.015589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.272964 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1
+  artifactKey: Guid(f2d3f994aefd64b4db12487df437a4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1 using Guid(f2d3f994aefd64b4db12487df437a4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa66817047420e8985e0feaa3756c3a') in 0.007802 seconds 
+  Import took 0.009954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044496 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1/plant_1.fbx
+  artifactKey: Guid(f904ed2aa18a3224eac326574d1d362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1/plant_1.fbx using Guid(f904ed2aa18a3224eac326574d1d362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7583e1be1f6a48ce2a06b2b18f74c855') in 0.019901 seconds 
+  Import took 0.022285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1/plant_1.prefab
+  artifactKey: Guid(0f59c6f63553c7744ac3d7f67c8f0821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1/plant_1.prefab using Guid(0f59c6f63553c7744ac3d7f67c8f0821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6432cf3173e9a46adc3546c87a1a9a3') in 0.159016 seconds 
+  Import took 0.161264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.004493 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3
+  artifactKey: Guid(87c07cd09916f8d48a2c3536b73ed361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3 using Guid(87c07cd09916f8d48a2c3536b73ed361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b75665ab1fdf141bddb019bf6a306f') in 0.007091 seconds 
+  Import took 0.009583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.799775 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3/plant_3.fbx
+  artifactKey: Guid(30ae5fea4e92c4a449399b062965b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3/plant_3.fbx using Guid(30ae5fea4e92c4a449399b062965b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0014fbe886ea412504261e6c65cc6967') in 0.016917 seconds 
+  Import took 0.019165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3/plant_3.prefab
+  artifactKey: Guid(a18d360064d101f4c93889e7933c719c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3/plant_3.prefab using Guid(a18d360064d101f4c93889e7933c719c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb7bc503af7088a1790bc4e59b81876') in 0.011316 seconds 
+  Import took 0.013465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.224517 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4
+  artifactKey: Guid(c21945f63fad4004d9be1f0d4bd876f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4 using Guid(c21945f63fad4004d9be1f0d4bd876f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92333cdbe0824db40d07f8405f8d195f') in 0.007326 seconds 
+  Import took 0.009568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034267 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4/plant_4.fbx
+  artifactKey: Guid(c114d822c764b7b4c860a416d596368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4/plant_4.fbx using Guid(c114d822c764b7b4c860a416d596368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b19814164cd61c099058073eebaaae') in 0.014628 seconds 
+  Import took 0.016909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4/plant_4.prefab
+  artifactKey: Guid(7d7017793b4bf6e4a8d3fb9dd5516951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4/plant_4.prefab using Guid(7d7017793b4bf6e4a8d3fb9dd5516951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fae60b8ad26c4389ee48b12527ff98') in 0.009972 seconds 
+  Import took 0.012316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.691237 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5
+  artifactKey: Guid(5cf7323da958eaf4ea09c8d616bef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5 using Guid(5cf7323da958eaf4ea09c8d616bef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64673181d256439c446fc3e1fd7f3a5') in 0.006685 seconds 
+  Import took 0.008854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032335 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5/plant_5.fbx
+  artifactKey: Guid(bb037aee249e689428ec651b0b51f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5/plant_5.fbx using Guid(bb037aee249e689428ec651b0b51f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6e431ad420a325412de1a591127130') in 0.017982 seconds 
+  Import took 0.020525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5/plant_5.prefab
+  artifactKey: Guid(6b99da1a39ea2614cb882ba24d69e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5/plant_5.prefab using Guid(6b99da1a39ea2614cb882ba24d69e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502d4fc78843c6ea43e5662bd1f86aca') in 0.013005 seconds 
+  Import took 0.015137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.364051 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6
+  artifactKey: Guid(bb6e1f5fbf193e140ab6593204f0311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6 using Guid(bb6e1f5fbf193e140ab6593204f0311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b9f89fd15cbdff996b4a5092534b86') in 0.007165 seconds 
+  Import took 0.009388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048690 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6/plant_6.fbx
+  artifactKey: Guid(1ef424e68357e6144b6b4cc6e274c569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6/plant_6.fbx using Guid(1ef424e68357e6144b6b4cc6e274c569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b0939a0831411d108cc234dbdd8f62') in 0.027066 seconds 
+  Import took 0.029413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6/plant_6.prefab
+  artifactKey: Guid(186a57276e95813498c02ad2af30429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6/plant_6.prefab using Guid(186a57276e95813498c02ad2af30429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c368c4f1c74ec4ce58d0b4fafb7e7635') in 0.012991 seconds 
+  Import took 0.015248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.451089 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8
+  artifactKey: Guid(14aa873618f6452478ac5b358e83ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8 using Guid(14aa873618f6452478ac5b358e83ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910f7d753817e12b0d9dcf297851d13b') in 0.008180 seconds 
+  Import took 0.010404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030317 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8/plant_8.fbx
+  artifactKey: Guid(de293cfbfb38a70458f6b760859553f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8/plant_8.fbx using Guid(de293cfbfb38a70458f6b760859553f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcde600ccca0f61a85d16a4c098c088a') in 0.032960 seconds 
+  Import took 0.035316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8/plant_8.prefab
+  artifactKey: Guid(edfefdacf162ed84caeedfddd0879e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8/plant_8.prefab using Guid(edfefdacf162ed84caeedfddd0879e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56730e4cee3691e8332e056e78f2c425') in 0.017832 seconds 
+  Import took 0.020026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.541832 seconds.
+  path: Assets/In Progress/Main Menu Manager/Prefabs/plant_7.prefab
+  artifactKey: Guid(cfacd30ea99762040b0bd1f5c62fad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/Main Menu Manager/Prefabs/plant_7.prefab using Guid(cfacd30ea99762040b0bd1f5c62fad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e87751b7b69bd70266954bdc0a0e967') in 0.014176 seconds 
+  Import took 0.016607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.440824 seconds.
+  path: Assets/In Progress/Main Menu Manager/Prefabs/plant_8.prefab
+  artifactKey: Guid(f6086598495556b48979a302e5da648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/Main Menu Manager/Prefabs/plant_8.prefab using Guid(f6086598495556b48979a302e5da648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ec48274b4951a9843f630faae6b96c') in 0.017336 seconds 
+  Import took 0.019828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.470239 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Textures
+  artifactKey: Guid(652df731c54b58344831236ed323159d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Textures using Guid(652df731c54b58344831236ed323159d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640003ac0c0594048aefa711bfdd6a5a') in 0.004157 seconds 
+  Import took 0.006534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048281 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Textures/atlass_1_diffuse.png
+  artifactKey: Guid(bb8118f34410a604dbf31c021fae3009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Textures/atlass_1_diffuse.png using Guid(bb8118f34410a604dbf31c021fae3009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0049895cfd2666ea172461344f02287') in 0.021035 seconds 
+  Import took 0.023376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.125114 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush1
+  artifactKey: Guid(b94cf8d30a7019b4480500c4a8eaefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush1 using Guid(b94cf8d30a7019b4480500c4a8eaefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b88e71055fc4afc199d40bad4b51689') in 0.007838 seconds 
+  Import took 0.010084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049344 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush1/bush_1.fbx
+  artifactKey: Guid(c79853d1a22a5cb49b15a3715056104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush1/bush_1.fbx using Guid(c79853d1a22a5cb49b15a3715056104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053daf3a3e854ad5ce7e1e7cf4d54ee0') in 0.017380 seconds 
+  Import took 0.019669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush1/bush_1.prefab
+  artifactKey: Guid(0922ee3a38e19aa4ea103aefd1704e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush1/bush_1.prefab using Guid(0922ee3a38e19aa4ea103aefd1704e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74b60e088bae5340e0838c899f7f41b') in 0.010695 seconds 
+  Import took 0.012867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.752944 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush2
+  artifactKey: Guid(0e339fec8a19eba44a8fa63844248d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush2 using Guid(0e339fec8a19eba44a8fa63844248d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adfa8ccd7e10ec5a4b79a86db895faa') in 0.006411 seconds 
+  Import took 0.008662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023723 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush2/bush_2.fbx
+  artifactKey: Guid(b6a12a94b078221458a7a86e0509a863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush2/bush_2.fbx using Guid(b6a12a94b078221458a7a86e0509a863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ee7fe463564ca0481fdbbaab89f351') in 0.015771 seconds 
+  Import took 0.018077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush2/bush_2.prefab
+  artifactKey: Guid(58d18c950edc184449d1b850f5563780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush2/bush_2.prefab using Guid(58d18c950edc184449d1b850f5563780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c875bf5da47e31fe2ab3a704efb85d') in 0.010848 seconds 
+  Import took 0.013011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.743156 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush3
+  artifactKey: Guid(b9d31946a498e804a8b1bd5fa2642c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush3 using Guid(b9d31946a498e804a8b1bd5fa2642c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4966849d0fdc8c286b20cb6f0d3822f2') in 0.007423 seconds 
+  Import took 0.009842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030736 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush3/bush_3.fbx
+  artifactKey: Guid(836b2fd6f6646fc47b105938f7f91f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush3/bush_3.fbx using Guid(836b2fd6f6646fc47b105938f7f91f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b42bb8e4183dcb08ac00a983b08f1fe') in 0.015765 seconds 
+  Import took 0.018131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush3/bush_3.prefab
+  artifactKey: Guid(f452cdb75db6e154a92b59d53ccebfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush3/bush_3.prefab using Guid(f452cdb75db6e154a92b59d53ccebfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a9a921a9ecf56791af25434b8fdfe9') in 0.012345 seconds 
+  Import took 0.014507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.653052 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush4
+  artifactKey: Guid(626239cf2f1ecc54694ea81dfac44080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush4 using Guid(626239cf2f1ecc54694ea81dfac44080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3b7e02cf9e7f6f893b924bbde7fc36') in 0.055592 seconds 
+  Import took 0.057796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush4/bush_4.fbx
+  artifactKey: Guid(b80e7a855f4247c4fa4e1f15509a76b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush4/bush_4.fbx using Guid(b80e7a855f4247c4fa4e1f15509a76b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca59290e50418a1c2aebf330c03c5e49') in 0.020186 seconds 
+  Import took 0.022605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush4/bush_4.prefab
+  artifactKey: Guid(b00b4b56eca3251449675f6158e600cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush4/bush_4.prefab using Guid(b00b4b56eca3251449675f6158e600cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df863bfe1e109648d18ea4df3795b3e') in 0.021794 seconds 
+  Import took 0.024174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.646169 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush5
+  artifactKey: Guid(c43a7d55fe186a44d978df86001c0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush5 using Guid(c43a7d55fe186a44d978df86001c0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca4f4e8c800dd96178142b64f1b239c') in 0.006710 seconds 
+  Import took 0.008981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027092 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush5/bush_5.fbx
+  artifactKey: Guid(a049d842effa0f54196f5cb776e4cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush5/bush_5.fbx using Guid(a049d842effa0f54196f5cb776e4cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d600bc5b06fd44c4c0bc216ce8ffc20') in 0.014316 seconds 
+  Import took 0.016663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush5/bush_5.prefab
+  artifactKey: Guid(82c2d4b37a975874c91db31283fcf631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush5/bush_5.prefab using Guid(82c2d4b37a975874c91db31283fcf631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455dbabebab50e9c7bf4428ebc8e4a3b') in 0.011027 seconds 
+  Import took 0.013442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.556364 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush6
+  artifactKey: Guid(4c775681029bbe4489598e3bca808887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush6 using Guid(4c775681029bbe4489598e3bca808887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825d8d677c93b7ba881f35e724fb1f5d') in 0.007352 seconds 
+  Import took 0.009553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026803 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush6/bush_6.fbx
+  artifactKey: Guid(9f99fffde8da15f488229ffa13e667a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush6/bush_6.fbx using Guid(9f99fffde8da15f488229ffa13e667a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a211e2a8376cbd7488fa94371d8b2d33') in 0.020282 seconds 
+  Import took 0.022623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush6/bush_6.prefab
+  artifactKey: Guid(c5a6c38dcf5f15d42bfa04a454f06484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush6/bush_6.prefab using Guid(c5a6c38dcf5f15d42bfa04a454f06484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635a2c64b4742729d0e6063487b1cb88') in 0.017196 seconds 
+  Import took 0.019563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.780021 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush7
+  artifactKey: Guid(b38cfceb953858a4d8f523d61a728b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush7 using Guid(b38cfceb953858a4d8f523d61a728b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce85d7b3cce5f75a732ed1101297eaf4') in 0.007284 seconds 
+  Import took 0.009646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035268 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush7/bush_7.fbx
+  artifactKey: Guid(ed9c125e67105a74e814dd5fa19b75e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush7/bush_7.fbx using Guid(ed9c125e67105a74e814dd5fa19b75e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5ffc0bae6bf331c3a456e52707dd09') in 0.018509 seconds 
+  Import took 0.107923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush7/bush_7.prefab
+  artifactKey: Guid(3a6be94e17c68634b8cfffbb1b0cd7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush7/bush_7.prefab using Guid(3a6be94e17c68634b8cfffbb1b0cd7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd3b60b3db57217cd208df7211b41b0') in 0.012030 seconds 
+  Import took 0.014345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.426452 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush8
+  artifactKey: Guid(5586535c044f5f94c9f7ccb144d0feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush8 using Guid(5586535c044f5f94c9f7ccb144d0feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5874c02db854a58c61207f5334ec5f') in 0.009253 seconds 
+  Import took 0.011618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029085 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush8/bush_8.fbx
+  artifactKey: Guid(c023717c218ada148b43bd218b69a339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush8/bush_8.fbx using Guid(c023717c218ada148b43bd218b69a339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9109e8af7dde304cf5e64879c09c7e98') in 0.015840 seconds 
+  Import took 0.018308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush8/bush_8.prefab
+  artifactKey: Guid(9b49303c34b100f4f85015f960f99575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush8/bush_8.prefab using Guid(9b49303c34b100f4f85015f960f99575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aa327fd8fa7670203e9dc736ad4550') in 0.011011 seconds 
+  Import took 0.013177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.214426 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush9
+  artifactKey: Guid(26023fd94edbbdb42b061ce8f21171ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush9 using Guid(26023fd94edbbdb42b061ce8f21171ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d4ed5eeb32411366486b5093df8455') in 0.006706 seconds 
+  Import took 0.008876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029217 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush9/bush_9.fbx
+  artifactKey: Guid(52718464a9aead341a730988b0780b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush9/bush_9.fbx using Guid(52718464a9aead341a730988b0780b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1564ed82574d1d551e8b167e4cb2810') in 0.014389 seconds 
+  Import took 0.016675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush9/bush_9.prefab
+  artifactKey: Guid(b5c18ee5848d90141bd7c3317eb042d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush9/bush_9.prefab using Guid(b5c18ee5848d90141bd7c3317eb042d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f9ffd9d7687a4b207e4676dc1738b5') in 0.010232 seconds 
+  Import took 0.012444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.472406 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush10
+  artifactKey: Guid(13959f621dfb3ee4587de7e64def407b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush10 using Guid(13959f621dfb3ee4587de7e64def407b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0efa8a2d874f80b954c8c04cf3de6a') in 0.006966 seconds 
+  Import took 0.009212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033275 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush10/bush_10.fbx
+  artifactKey: Guid(56423057ff283874e9a1025c8de6179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush10/bush_10.fbx using Guid(56423057ff283874e9a1025c8de6179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9788e35f6f2e2801b199fc91bce6fe') in 0.016112 seconds 
+  Import took 0.018392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush10/bush_10.prefab
+  artifactKey: Guid(984ece9414221494797cd4c6333e6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush10/bush_10.prefab using Guid(984ece9414221494797cd4c6333e6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3c676bff69e092c39a83e0ab70e35e') in 0.011471 seconds 
+  Import took 0.013959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.268383 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris
+  artifactKey: Guid(e98479b74c4228f47aa79f38593c7a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris using Guid(e98479b74c4228f47aa79f38593c7a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da425966dc64d1b2e012fda7001c1c71') in 0.008032 seconds 
+  Import took 0.010497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.703420 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris4
+  artifactKey: Guid(a7016cbd59bced548a4e8dd874b3981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris4 using Guid(a7016cbd59bced548a4e8dd874b3981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dffc2879b078137b5216da019837f20') in 0.006511 seconds 
+  Import took 0.008740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032662 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris4/debris_4.fbx
+  artifactKey: Guid(2d534371cee744540a503b0c05f15c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris4/debris_4.fbx using Guid(2d534371cee744540a503b0c05f15c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a991b3000c97046cc8e48731eac719') in 0.015707 seconds 
+  Import took 0.018112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris4/debris_4.prefab
+  artifactKey: Guid(f02ebb96638dd13428efbf6875a91bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris4/debris_4.prefab using Guid(f02ebb96638dd13428efbf6875a91bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0abfc428d6566bf6734284b0e939bd9') in 0.011640 seconds 
+  Import took 0.014039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.251225 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris3
+  artifactKey: Guid(9cc95c2a502f06047a140f7fbe534df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris3 using Guid(9cc95c2a502f06047a140f7fbe534df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edad5e8748d7eee81f149a58687db6a0') in 0.007084 seconds 
+  Import took 0.009388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031059 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris3/debris_3.fbx
+  artifactKey: Guid(7019ea8a90e2df4498b76efc8b6790d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris3/debris_3.fbx using Guid(7019ea8a90e2df4498b76efc8b6790d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54976fa05893fb01b6219f347eaca146') in 0.029264 seconds 
+  Import took 0.031617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris3/debris_3.prefab
+  artifactKey: Guid(c185db8f8ca24c84d8c14fac8fcc9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris3/debris_3.prefab using Guid(c185db8f8ca24c84d8c14fac8fcc9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb22e25e9d43709463665fc816d65e6') in 0.012210 seconds 
+  Import took 0.014448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.123646 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/CombinedAssets
+  artifactKey: Guid(6aa0f47e82dd4044faae0aea6f2ca91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/CombinedAssets using Guid(6aa0f47e82dd4044faae0aea6f2ca91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4587be49e093a2481a3c95b9fede14a') in 0.006434 seconds 
+  Import took 0.008821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.814615 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/CombinedAssets/CombinedAssets1
+  artifactKey: Guid(15ca945f48b9add4d858b8ca1adcf4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/CombinedAssets/CombinedAssets1 using Guid(15ca945f48b9add4d858b8ca1adcf4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7add3d318d50f4906ad9315e6dae57') in 0.006280 seconds 
+  Import took 0.008572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027558 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/CombinedAssets/CombinedAssets1/combined_assets_1.fbx
+  artifactKey: Guid(d58aab12781feca4baaee1fc5355ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/CombinedAssets/CombinedAssets1/combined_assets_1.fbx using Guid(d58aab12781feca4baaee1fc5355ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304505af3960c95b8a66b9db7b99fbcd') in 0.039938 seconds 
+  Import took 0.042223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/CombinedAssets/CombinedAssets1/combined_assets_1.prefab
+  artifactKey: Guid(6102d26ab22b5c644a74aa832788ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/CombinedAssets/CombinedAssets1/combined_assets_1.prefab using Guid(6102d26ab22b5c644a74aa832788ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada442bfc2ad4dd5cb96fbc3d48ca3ce') in 0.037532 seconds 
+  Import took 0.039742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.546905 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms
+  artifactKey: Guid(874957c2ac5cc734cb5e17fd1d6e35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms using Guid(874957c2ac5cc734cb5e17fd1d6e35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467cb3d7c8f89b79d1e93d6e2cece900') in 0.236148 seconds 
+  Import took 0.238497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127466 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Logs
+  artifactKey: Guid(898e868ee974397448e5ecd9d33149d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Logs using Guid(898e868ee974397448e5ecd9d33149d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3834e7771c7e29aa63116f1384b3b963') in 0.007183 seconds 
+  Import took 0.009524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.638957 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Logs/Log4
+  artifactKey: Guid(b67b3cc81fe9a464b99dcbe0855d9dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Logs/Log4 using Guid(b67b3cc81fe9a464b99dcbe0855d9dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5910e8816c764b753a275a95161bd3') in 0.007395 seconds 
+  Import took 0.009698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038987 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Logs/Log4/log_4.fbx
+  artifactKey: Guid(5e98a6bb7f0bd2a4295e2f82afab9335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Logs/Log4/log_4.fbx using Guid(5e98a6bb7f0bd2a4295e2f82afab9335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f4a7fef1929274e61ad5850d70b459') in 0.015516 seconds 
+  Import took 0.017871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Logs/Log4/log_4.prefab
+  artifactKey: Guid(60c625b36fb3e2841a33f33b7ea8d474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Logs/Log4/log_4.prefab using Guid(60c625b36fb3e2841a33f33b7ea8d474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb89751d55031c000518c63727e1c805') in 0.010617 seconds 
+  Import took 0.012989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.765202 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom1
+  artifactKey: Guid(12b84cec2eb984e488011367f98712fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom1 using Guid(12b84cec2eb984e488011367f98712fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fb1d457db2ce3f6fc3c5b6c769f962') in 0.007931 seconds 
+  Import took 0.010150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026063 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom1/mushroom_1.fbx
+  artifactKey: Guid(c3285a9e799184c459de9ebc1b91df3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom1/mushroom_1.fbx using Guid(c3285a9e799184c459de9ebc1b91df3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2455531fbf20cf3fc60d339041c88a8a') in 0.031899 seconds 
+  Import took 0.034289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom1/mushroom_1.prefab
+  artifactKey: Guid(5ddf778edb25e104c9b02819ac2335af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom1/mushroom_1.prefab using Guid(5ddf778edb25e104c9b02819ac2335af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1772c06c3e0c56f4e93c61e3c0966bc') in 0.011733 seconds 
+  Import took 0.013857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.358636 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath3
+  artifactKey: Guid(92edc46ac914704469806af105498e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath3 using Guid(92edc46ac914704469806af105498e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3c45be9b41598bbd891780f3076441') in 0.008001 seconds 
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016910 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath3/rock_path_3.fbx
+  artifactKey: Guid(6bbcfc647dd6831458cc80dc451292be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath3/rock_path_3.fbx using Guid(6bbcfc647dd6831458cc80dc451292be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f5488d3433be6a9d067ec74539ee3b') in 0.115750 seconds 
+  Import took 0.118065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath3/rock_path_3.prefab
+  artifactKey: Guid(b895630072c8e7f458a51b9ffa6ca8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath3/rock_path_3.prefab using Guid(b895630072c8e7f458a51b9ffa6ca8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754616f1c858048f2cae80c2b539a3a0') in 0.019622 seconds 
+  Import took 0.021842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.455851 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath2
+  artifactKey: Guid(183d43ee93bf48e49b3e6a4efbd7e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath2 using Guid(183d43ee93bf48e49b3e6a4efbd7e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a264057f6eea16fb0edc611fc70a4a') in 0.007041 seconds 
+  Import took 0.009376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033324 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath2/rock_path_2.fbx
+  artifactKey: Guid(90dd01c9686e0b844a9ae8371bcf2086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath2/rock_path_2.fbx using Guid(90dd01c9686e0b844a9ae8371bcf2086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9912c96791bf829545c6ccd6ac03261e') in 0.014451 seconds 
+  Import took 0.016814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath2/rock_path_2.prefab
+  artifactKey: Guid(b026537401cdc0e4196c673431e5bc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Paths/RockPath2/rock_path_2.prefab using Guid(b026537401cdc0e4196c673431e5bc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063d49ae048d153523e2051559d50445') in 0.010931 seconds 
+  Import took 0.013073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.485478 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Stumps
+  artifactKey: Guid(47c1316826568bf479c00d1b22dcee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Stumps using Guid(47c1316826568bf479c00d1b22dcee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda1d0cb4d4c0c13b2285810f4ebc35e') in 0.008207 seconds 
+  Import took 0.010523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.879232 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Stumps/Stump6
+  artifactKey: Guid(9c9bbcf0f43b89740b519d10b407ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Stumps/Stump6 using Guid(9c9bbcf0f43b89740b519d10b407ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d8d0d1794bcba1e3c320bc12dd9739') in 0.006697 seconds 
+  Import took 0.008891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056299 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Stumps/Stump6/stump_6.fbx
+  artifactKey: Guid(ce3bfe1f010be2f41b8fa59c3bb620e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Stumps/Stump6/stump_6.fbx using Guid(ce3bfe1f010be2f41b8fa59c3bb620e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cd5a5f72d838d9e917c0d85077996c') in 0.016989 seconds 
+  Import took 0.019249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Stumps/Stump6/stump_6.prefab
+  artifactKey: Guid(72629cd8968f77d4e8b933b6e7977c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Stumps/Stump6/stump_6.prefab using Guid(72629cd8968f77d4e8b933b6e7977c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd22f3fa046183b52d587001af2bffb') in 0.011902 seconds 
+  Import took 0.014351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.228152 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree11
+  artifactKey: Guid(ca41450ca1f190042bc1ae29f87e46f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree11 using Guid(ca41450ca1f190042bc1ae29f87e46f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701d5f6c4f5ef18c519c07f0f66a4eb8') in 0.006267 seconds 
+  Import took 0.008757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029596 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree11/tree_11.fbx
+  artifactKey: Guid(02243859ebf046d48a475acf79f3f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree11/tree_11.fbx using Guid(02243859ebf046d48a475acf79f3f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891644206eb354b55ce3d14c7eb2f9f4') in 0.035268 seconds 
+  Import took 0.037556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree11/tree_11.prefab
+  artifactKey: Guid(9518168266436f54aa48391f056f5287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree11/tree_11.prefab using Guid(9518168266436f54aa48391f056f5287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879dc0ab575f145c4537c83af4c58845') in 0.011028 seconds 
+  Import took 0.013156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.404848 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree25
+  artifactKey: Guid(105504ee7910b6147bed5c4caf65127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree25 using Guid(105504ee7910b6147bed5c4caf65127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47155f343f3d13085810078c1b589d09') in 0.007846 seconds 
+  Import took 0.010148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028237 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree25/tree_25.fbx
+  artifactKey: Guid(526a4f7e3af76a649841e5ce8bd5cc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree25/tree_25.fbx using Guid(526a4f7e3af76a649841e5ce8bd5cc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a736c82d098acbd274d598a737f0c7b7') in 0.015310 seconds 
+  Import took 0.113282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree25/tree_25.prefab
+  artifactKey: Guid(b6e44a5c5fcaf244bbae9bd52a851a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree25/tree_25.prefab using Guid(b6e44a5c5fcaf244bbae9bd52a851a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9150c2b6e79b269d258d7c954d3a219') in 0.011922 seconds 
+  Import took 0.014207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.806736 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree7
+  artifactKey: Guid(fe949e1a47f2f124a907ba84367ceb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree7 using Guid(fe949e1a47f2f124a907ba84367ceb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40792c03a130e7b4e17e1baa0c6e28d5') in 0.006437 seconds 
+  Import took 0.008800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038132 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree7/tree_7.fbx
+  artifactKey: Guid(0431bfc7bc7b7f7478441b95e45d4951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree7/tree_7.fbx using Guid(0431bfc7bc7b7f7478441b95e45d4951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7b55a94893623535a75fcffed960bc') in 0.017829 seconds 
+  Import took 0.020246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree7/tree_7.prefab
+  artifactKey: Guid(d3f30897cbf9e1f48afb5a398fc09cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Trees/Tree7/tree_7.prefab using Guid(d3f30897cbf9e1f48afb5a398fc09cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86121b2f6f58ee301921474eb22a62b6') in 0.015537 seconds 
+  Import took 0.017916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.349473 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment
+  artifactKey: Guid(aea1bd45acdca89479fe1c7bc2cb36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment using Guid(aea1bd45acdca89479fe1c7bc2cb36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc62cfb94dfedb5b1236e7454c5f8e8') in 0.006880 seconds 
+  Import took 0.009259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.685593 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment1
+  artifactKey: Guid(1bf9892b715db89439796dd7ce6f190c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment1 using Guid(1bf9892b715db89439796dd7ce6f190c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bad3d9edcba7f3da149447252da85af') in 0.006480 seconds 
+  Import took 0.008699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030284 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment1/bush_segment_1.fbx
+  artifactKey: Guid(6e71488b17714744fbfee03f0de7e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment1/bush_segment_1.fbx using Guid(6e71488b17714744fbfee03f0de7e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b076809604cd41e0568e592a55b1a5c') in 0.024823 seconds 
+  Import took 0.027114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment1/bush_segment_1.prefab
+  artifactKey: Guid(d5d0e45cc5b809c43be9d981d0746d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment1/bush_segment_1.prefab using Guid(d5d0e45cc5b809c43be9d981d0746d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b90a225fc056765c3ed1acf6be6b24d') in 0.011787 seconds 
+  Import took 0.013941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.556716 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/Bush_Segment2
+  artifactKey: Guid(e8883fdf6de34354eb09ad5779b352e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/Bush_Segment2 using Guid(e8883fdf6de34354eb09ad5779b352e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e207cdd81ccb18bb9c8d5b5aa1b80ef') in 0.008782 seconds 
+  Import took 0.011006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029885 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/Bush_Segment2/bush_segment_2.fbx
+  artifactKey: Guid(a6045efc565f9d148b1c830b677421c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/Bush_Segment2/bush_segment_2.fbx using Guid(a6045efc565f9d148b1c830b677421c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be320a024eefeb99656488a776d5ee7') in 0.031924 seconds 
+  Import took 0.034265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/Bush_Segment2/bush_segment_2.prefab
+  artifactKey: Guid(41fc0c124ab3e524197d7d65009a3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/Bush_Segment2/bush_segment_2.prefab using Guid(41fc0c124ab3e524197d7d65009a3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d39da2c47479cded7ec7bc36ca1cdc1') in 0.012288 seconds 
+  Import took 0.014540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.317729 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment3
+  artifactKey: Guid(1edf8924965207445b91a45dffdafdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment3 using Guid(1edf8924965207445b91a45dffdafdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8dcd0f0de59bca83e55111a172b65a') in 0.006373 seconds 
+  Import took 0.008657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024611 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment3/bush_segment_3.fbx
+  artifactKey: Guid(dcc1aa9fe9e1cf04ca8dd7ca644aa764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment3/bush_segment_3.fbx using Guid(dcc1aa9fe9e1cf04ca8dd7ca644aa764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdbd6b5c0e856d551d522b79a53404f') in 0.018437 seconds 
+  Import took 0.020890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment3/bush_segment_3.prefab
+  artifactKey: Guid(8b11cf57cef3d7c4eab59a152d6c88ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/BushSegment/BushSegment3/bush_segment_3.prefab using Guid(8b11cf57cef3d7c4eab59a152d6c88ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a7dc700a199ff61ae9817dcaa322ec') in 0.011482 seconds 
+  Import took 0.013825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.365385 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Cliffs
+  artifactKey: Guid(b0f2c3ed00051ab45b39595eff41f2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Cliffs using Guid(b0f2c3ed00051ab45b39595eff41f2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6fdae04c0bcbc47e390c79163bb788') in 0.071121 seconds 
+  Import took 0.073297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.337086 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Clouds
+  artifactKey: Guid(8fbe9e0035d3b8a4ebe432145361c3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Clouds using Guid(8fbe9e0035d3b8a4ebe432145361c3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7afd08d4b5c885f7f4362b090eddbd') in 0.006887 seconds 
+  Import took 0.009150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.012905 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Clouds/Cloud2
+  artifactKey: Guid(d3908db93acd3854fb0ff6c29966890c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Clouds/Cloud2 using Guid(d3908db93acd3854fb0ff6c29966890c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c13e42a2fdb6da4671c3d985cba5838') in 0.006484 seconds 
+  Import took 0.008684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051967 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Clouds/Cloud2/cloud_2.fbx
+  artifactKey: Guid(eab4f5cf4ff0a2a419147171a716df2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Clouds/Cloud2/cloud_2.fbx using Guid(eab4f5cf4ff0a2a419147171a716df2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62d6d46376aef72f1642ccf9b751030') in 0.020032 seconds 
+  Import took 0.022300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Clouds/Cloud2/cloud_2.prefab
+  artifactKey: Guid(375e6bb970544234396eb05937781851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Clouds/Cloud2/cloud_2.prefab using Guid(375e6bb970544234396eb05937781851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0104dd17d111e26cdabdd14e087f24dd') in 0.011078 seconds 
+  Import took 0.013580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.085281 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris1
+  artifactKey: Guid(3db7600949b7566478452768ab67b860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris1 using Guid(3db7600949b7566478452768ab67b860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04eef1302b26a1e57c39f2be9deb3494') in 0.006477 seconds 
+  Import took 0.008703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026601 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris1/debris_1.fbx
+  artifactKey: Guid(8a1f621c8a48cc743943e75a8ca0e01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris1/debris_1.fbx using Guid(8a1f621c8a48cc743943e75a8ca0e01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9529f7e1fefcb2e81d80221bd2d857') in 0.033797 seconds 
+  Import took 0.036124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris1/debris_1.prefab
+  artifactKey: Guid(5d788daea732b364bb3bc1330d4e792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Debris/Debris1/debris_1.prefab using Guid(5d788daea732b364bb3bc1330d4e792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2eb39aa9a8757dc4bc44c207560827f') in 0.011219 seconds 
+  Import took 0.013583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.534057 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower2
+  artifactKey: Guid(5d5e055cf2a3be941a3476a1e20c5e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower2 using Guid(5d5e055cf2a3be941a3476a1e20c5e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add75669c1efb1dc82d9d36b17d86a01') in 0.008919 seconds 
+  Import took 0.011111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033829 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower2/flower_2.fbx
+  artifactKey: Guid(dfa2172cca65f4947af0087afe9b5325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower2/flower_2.fbx using Guid(dfa2172cca65f4947af0087afe9b5325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f02f7073b921cc08ec00dbd58fb70b') in 0.015969 seconds 
+  Import took 0.018567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower2/flower_2.prefab
+  artifactKey: Guid(42d1aa1e935099b44bbee795578466c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower2/flower_2.prefab using Guid(42d1aa1e935099b44bbee795578466c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7756bacffa00019863c2d2435ab3f5a') in 0.011631 seconds 
+  Import took 0.014126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.231082 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower3
+  artifactKey: Guid(c6af1a2e34b6ad8499b52527b315a529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower3 using Guid(c6af1a2e34b6ad8499b52527b315a529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3896ed8dbc2ede34ab76190c8a064b8b') in 0.950609 seconds 
+  Import took 0.953073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower3/flower_3.fbx
+  artifactKey: Guid(d5efecfa44f82914294db715c310317e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower3/flower_3.fbx using Guid(d5efecfa44f82914294db715c310317e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7e0a2bfe98e9bffcc0486ddc543287') in 0.017312 seconds 
+  Import took 0.019557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower3/flower_3.prefab
+  artifactKey: Guid(7b08fe66855e56c4991a3055447b7355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower3/flower_3.prefab using Guid(7b08fe66855e56c4991a3055447b7355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bc01d609f4b13fabfc5eaa34dd0059') in 0.021245 seconds 
+  Import took 0.023729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002321 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower3/flower_3.prefab
+  artifactKey: Guid(7b08fe66855e56c4991a3055447b7355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower3/flower_3.prefab using Guid(7b08fe66855e56c4991a3055447b7355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bc01d609f4b13fabfc5eaa34dd0059') in 0.018296 seconds 
+  Import took 0.020709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.552804 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower4
+  artifactKey: Guid(22f97ee6bbdc72540a0ba3684872fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower4 using Guid(22f97ee6bbdc72540a0ba3684872fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a3af48c4c378dae87482557e6a7936') in 0.039162 seconds 
+  Import took 0.041512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower4/flower_4.fbx
+  artifactKey: Guid(ab61831ab3976974ea0f0185449dfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower4/flower_4.fbx using Guid(ab61831ab3976974ea0f0185449dfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff2eb6f017615a2f6509214c0a23dbd') in 0.016773 seconds 
+  Import took 0.019390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower4/flower_4.prefab
+  artifactKey: Guid(51276cc88102cf44781a6249ac17e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Flowers/Flower4/flower_4.prefab using Guid(51276cc88102cf44781a6249ac17e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326d1a068bc364c8ff0edd0023c13921') in 0.010555 seconds 
+  Import took 0.012883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.558012 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass
+  artifactKey: Guid(1611a97e365a79747bde2b69f1f9da84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass using Guid(1611a97e365a79747bde2b69f1f9da84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1d83c7d12be06a23b2d0b29de51b0a') in 0.008662 seconds 
+  Import took 0.010880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.705781 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass1
+  artifactKey: Guid(36ed94b16008e3b4d985e31bd47b1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass1 using Guid(36ed94b16008e3b4d985e31bd47b1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228e281605746651e7876456cdec2478') in 0.640343 seconds 
+  Import took 0.642730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass1/grass_1.fbx
+  artifactKey: Guid(fe1d8334175f01b4089c9b3479255200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass1/grass_1.fbx using Guid(fe1d8334175f01b4089c9b3479255200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473b4e5fc955ae0e61242c5642bf7731') in 0.021863 seconds 
+  Import took 0.024487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass1/grass_1.prefab
+  artifactKey: Guid(9e8c3a7e58b8d4642bbf2694bf3a1c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass1/grass_1.prefab using Guid(9e8c3a7e58b8d4642bbf2694bf3a1c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fe0c7b089b800450e23ccbfce3cf2c') in 0.029383 seconds 
+  Import took 0.031743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.845127 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass2
+  artifactKey: Guid(ff4cdb19247a1cc4ab248285890b8cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass2 using Guid(ff4cdb19247a1cc4ab248285890b8cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1f317e124657c11607ae9adb093d21') in 0.007409 seconds 
+  Import took 0.009613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041461 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass2/grass_2.fbx
+  artifactKey: Guid(05083f8fdf6ccc144844440b95ef1597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass2/grass_2.fbx using Guid(05083f8fdf6ccc144844440b95ef1597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0730b71cd870c177a9c74667b0a44292') in 0.023209 seconds 
+  Import took 0.025533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass2/grass_2.prefab
+  artifactKey: Guid(c49d07c7413b27948a36f11cb560c9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass2/grass_2.prefab using Guid(c49d07c7413b27948a36f11cb560c9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3160a4795ad3dfc1985dc7e0070a95') in 0.011756 seconds 
+  Import took 0.014006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.145710 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass3
+  artifactKey: Guid(7246ba6da98a7c848b1abaf49a435e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass3 using Guid(7246ba6da98a7c848b1abaf49a435e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc33984b891a13b51ce53f2b553bc19d') in 0.006499 seconds 
+  Import took 0.008842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024612 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass3/grass_3.fbx
+  artifactKey: Guid(cbcd805f39c7e0e4c8ee999fa9ba5552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass3/grass_3.fbx using Guid(cbcd805f39c7e0e4c8ee999fa9ba5552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b766486f453f82f4b2f136b64d57bb5e') in 0.014837 seconds 
+  Import took 0.017152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass3/grass_3.prefab
+  artifactKey: Guid(5c474a6ba92e1694c88c1b7a86df7682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Grass/Grass3/grass_3.prefab using Guid(5c474a6ba92e1694c88c1b7a86df7682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0ed10adb5757d43d4af1b5c4464704') in 0.010117 seconds 
+  Import took 0.012383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.873304 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom2
+  artifactKey: Guid(bbd14c42c4684964ab00c2c9e3c4890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom2 using Guid(bbd14c42c4684964ab00c2c9e3c4890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce948ae53d6ab6ba905966e9ca2dd22') in 0.008236 seconds 
+  Import took 0.010481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045061 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom2/mushroom_2.fbx
+  artifactKey: Guid(0c08406cba5d90143a2cc369489b56af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom2/mushroom_2.fbx using Guid(0c08406cba5d90143a2cc369489b56af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0482b4a482b5c43060b3eaf60144e852') in 0.026299 seconds 
+  Import took 0.028590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom2/mushroom_2.prefab
+  artifactKey: Guid(495bd8bc2a3e4b6479e5259148ca640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom2/mushroom_2.prefab using Guid(495bd8bc2a3e4b6479e5259148ca640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b2c0819f97fe16ae0a4d59da6537fc') in 0.013891 seconds 
+  Import took 0.016367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.324996 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom3
+  artifactKey: Guid(37e8cb81d3f089e488c8c341c32427cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom3 using Guid(37e8cb81d3f089e488c8c341c32427cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823147771978f889fbb594b01b196c32') in 0.006709 seconds 
+  Import took 0.009029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041785 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom3/mushroom_3.fbx
+  artifactKey: Guid(aab7aba04a6f55a428f96a2930fcc9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom3/mushroom_3.fbx using Guid(aab7aba04a6f55a428f96a2930fcc9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd15133bdb7222a1d7ef3c3d33340b2') in 0.018184 seconds 
+  Import took 0.020435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom3/mushroom_3.prefab
+  artifactKey: Guid(60535e025a23605438aaee6f4c4442e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Mushrooms/Mushroom3/mushroom_3.prefab using Guid(60535e025a23605438aaee6f4c4442e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b257e291c351a91f65cffbc19f2d70ea') in 0.011282 seconds 
+  Import took 0.013617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.361791 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9
+  artifactKey: Guid(f9b1787d386a8e149802961b0749c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9 using Guid(f9b1787d386a8e149802961b0749c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258f509eec0637c85cfa2638abdbc53b') in 0.007611 seconds 
+  Import took 0.009949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045991 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.fbx
+  artifactKey: Guid(b1d3980c138450e4d88637233ddbe2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.fbx using Guid(b1d3980c138450e4d88637233ddbe2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe4c110e75c2768f874052ab3f9838d') in 0.022528 seconds 
+  Import took 0.024956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.prefab
+  artifactKey: Guid(9f2cb2da66bdaa34da78488a1480f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.prefab using Guid(9f2cb2da66bdaa34da78488a1480f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5be05671c00a5586e37f121be29bf2') in 0.015334 seconds 
+  Import took 0.018046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003333 seconds.
+  path: Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.prefab
+  artifactKey: Guid(9f2cb2da66bdaa34da78488a1480f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.prefab using Guid(9f2cb2da66bdaa34da78488a1480f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5be05671c00a5586e37f121be29bf2') in 0.020638 seconds 
+  Import took 0.023141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.439136 seconds.
+  path: Assets/In Progress/Main Menu Manager/Prefabs/plant_9.prefab
+  artifactKey: Guid(e5e40c88af64b1247aa5c830a2c4700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/Main Menu Manager/Prefabs/plant_9.prefab using Guid(e5e40c88af64b1247aa5c830a2c4700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9edca3fab0b299f8d433f05bd456200') in 0.050367 seconds 
+  Import took 0.052897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.517489 seconds.
+  path: Assets/Internal Assets/Models SpaceBase/Models/New Material.mat
+  artifactKey: Guid(a9889c8b69cb844489cff14cf92d2078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Models SpaceBase/Models/New Material.mat using Guid(a9889c8b69cb844489cff14cf92d2078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f609ec1176fc442c7a70b6f31ad6c905') in 0.054004 seconds 
+  Import took 0.056896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004360 seconds.
+  path: Assets/Internal Assets/Models SpaceBase/Models/New Material.mat
+  artifactKey: Guid(a9889c8b69cb844489cff14cf92d2078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Models SpaceBase/Models/New Material.mat using Guid(a9889c8b69cb844489cff14cf92d2078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f609ec1176fc442c7a70b6f31ad6c905') in 0.010351 seconds 
+  Import took 0.012709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1107.516657 seconds.
+  path: Assets/Internal Assets/Background
+  artifactKey: Guid(39a92a5f4707c79418467f11034b3a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Background using Guid(39a92a5f4707c79418467f11034b3a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001d7df45cf227e237184607112cc739') in 0.007519 seconds 
+  Import took 0.010230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.991228 seconds.
+  path: Assets/Internal Assets/Audio
+  artifactKey: Guid(cf8d8ac44bc439c478730f20d91e647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Audio using Guid(cf8d8ac44bc439c478730f20d91e647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8bdd015667188182fd5953787221a8') in 0.008172 seconds 
+  Import took 0.010356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.409763 seconds.
+  path: Assets/Internal Assets/Animations
+  artifactKey: Guid(e26a4d5eea06e8b4dae467fd3e9730f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Animations using Guid(e26a4d5eea06e8b4dae467fd3e9730f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956ccc711d9cf22f8e113b468b3330f9') in 0.007609 seconds 
+  Import took 0.009847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.784091 seconds.
+  path: Assets/Internal Assets/Animations/Character
+  artifactKey: Guid(2a095d54b91d1ef44b019625b0f08ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Animations/Character using Guid(2a095d54b91d1ef44b019625b0f08ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1190164320f45ce375593bf48bd58d2e') in 0.006500 seconds 
+  Import took 0.008882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1092.435341 seconds.
+  path: Assets/Internal Assets/Fonts
+  artifactKey: Guid(fa7bf5492bf1ab74ea2ee662d76221af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Fonts using Guid(fa7bf5492bf1ab74ea2ee662d76221af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8533e6d9a67eb580eda78410de0d5e') in 0.092692 seconds 
+  Import took 0.095346 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (777ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 1.527500 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.307300 ms  DeleteObjects: 0.017900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (821ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (671ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2040.
+Total: 1.617100 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.412700 ms  DeleteObjects: 0.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1180.569577 seconds.
+  path: Assets/Internal Assets/Animations/Character/Animations
+  artifactKey: Guid(e1a3b821dc20e2242a53ed42da08981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Animations/Character/Animations using Guid(e1a3b821dc20e2242a53ed42da08981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f45e40f7f256117b647c28fc0eda45') in 0.093434 seconds 
+  Import took 0.096142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Internal Assets/Animations/Character/Animations/KayKit Animated Character_v1.0.fbx
+  artifactKey: Guid(bd6dc22666aab42419c073960116b262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Animations/Character/Animations/KayKit Animated Character_v1.0.fbx using Guid(bd6dc22666aab42419c073960116b262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea7ca91cfdbe31c32232c3100b7c6a2') in 0.243407 seconds 
+  Import took 0.246346 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003938 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (749ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 1.895500 ms (FindLiveObjects: 0.135800 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.695900 ms  DeleteObjects: 0.022100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.171062 seconds.
+  path: Assets/Internal Assets/Models SpaceBase/Models/craft_speederA.controller
+  artifactKey: Guid(88f1e9fd6e5a24a4891686b5d86807e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Models SpaceBase/Models/craft_speederA.controller using Guid(88f1e9fd6e5a24a4891686b5d86807e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968a441132836404604459af6914f55a') in 0.016943 seconds 
+  Import took 0.019219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.698498 seconds.
+  path: Assets/In Progress/Main Menu Manager/Animation/craft_speederA.controller
+  artifactKey: Guid(88f1e9fd6e5a24a4891686b5d86807e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/Main Menu Manager/Animation/craft_speederA.controller using Guid(88f1e9fd6e5a24a4891686b5d86807e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e7d3d426d3db4a526b369ef4917603') in 0.005058 seconds 
+  Import took 0.007458 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003342 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2046.
+Total: 1.470600 ms (FindLiveObjects: 0.144200 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.273500 ms  DeleteObjects: 0.011400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.526314 seconds.
+  path: Assets/Internal Assets/Models SpaceBase/Models/SpaceShip01.anim
+  artifactKey: Guid(564890e88f51cd149934811ee84c604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Internal Assets/Models SpaceBase/Models/SpaceShip01.anim using Guid(564890e88f51cd149934811ee84c604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31b453773ece6ecedfada60f979abcb') in 0.018194 seconds 
+  Import took 0.020492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966582 seconds.
+  path: Assets/In Progress/Main Menu Manager/Animation/SpaceShip01.anim
+  artifactKey: Guid(564890e88f51cd149934811ee84c604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/Main Menu Manager/Animation/SpaceShip01.anim using Guid(564890e88f51cd149934811ee84c604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151ee325341a3d8687b4e5eff67de6d0') in 0.005012 seconds 
+  Import took 0.007230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.362606 seconds.
+  path: Assets/In Progress/Main Menu Manager/Animation
+  artifactKey: Guid(2d40be735361bc143a99667616c96661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/Main Menu Manager/Animation using Guid(2d40be735361bc143a99667616c96661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2119224dc015e2192fd3d0b9e7d17bca') in 0.006251 seconds 
+  Import took 0.008490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/In Progress/Main Menu Manager/Animation
+  artifactKey: Guid(2d40be735361bc143a99667616c96661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In Progress/Main Menu Manager/Animation using Guid(2d40be735361bc143a99667616c96661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2119224dc015e2192fd3d0b9e7d17bca') in 0.004235 seconds 
+  Import took 0.006700 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003932 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 1.466300 ms (FindLiveObjects: 0.125500 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.294100 ms  DeleteObjects: 0.011300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (869ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (705ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 2.044200 ms (FindLiveObjects: 0.147500 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.826600 ms  DeleteObjects: 0.026800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.048623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1229ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2052.
+Total: 2.593900 ms (FindLiveObjects: 0.331000 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.073300 ms  DeleteObjects: 0.072900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.128277 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (741ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2054.
+Total: 1.621300 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.413600 ms  DeleteObjects: 0.014000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (761ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2056.
+Total: 1.646000 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.441100 ms  DeleteObjects: 0.013600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2058.
+Total: 1.768500 ms (FindLiveObjects: 0.143500 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.566200 ms  DeleteObjects: 0.016100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
